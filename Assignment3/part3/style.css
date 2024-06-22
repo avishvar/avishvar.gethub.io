@@ -31,3 +31,31 @@
     align-items: flex-start;
     margin: 20px; 
   }
+  nav a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    text-decoration: none;
+    color: #8B5E4B; 
+    border: 1px solid #8B5E4B;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+    text-align: center;
+  }
+  
