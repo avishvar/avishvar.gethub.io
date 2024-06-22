@@ -89,3 +89,34 @@
   a:hover {
     text-decoration: underline;
   }
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: none;
+    border: 1px solid #a66;
+    color: #a66;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #a66;
+    color: #fff;
+  }
+  
+  /* Additional styles to match the image */
+  
+  section {
+    margin-right: 20px;
+  }
+  
+  aside {
+    margin-left: 20px;
+  }
+  
+  nav button {
+    text-align: center;
+    font-weight: bold;
+  }
